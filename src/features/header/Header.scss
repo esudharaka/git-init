@@ -1,0 +1,20 @@
+.header_section {
+  background: #131921;
+  display: flex;
+  align-items: flex-end;
+  color: whitesmoke;
+  padding-top: 12px;
+
+  &__left {
+    flex-grow: 1;
+  }
+
+  &__middle {
+    flex-grow: 1;
+    font-size:  xx-large;
+  }
+
+  &__right {
+    flex-grow: 1;
+  }
+}

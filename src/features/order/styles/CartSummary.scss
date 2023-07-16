@@ -1,0 +1,27 @@
+.cart-summary {
+
+  &__item-details { 
+    .css-132a6sb-MuiTableCell-root{
+      color: #224d2b;
+      font-weight: 800;
+    }
+  }
+
+  &__total { 
+    text-align: left;
+    padding-top: 26px;
+    padding-left: 10px;
+    font-size: large;
+    font-weight: 600;
+  }
+
+  &__checkout-btn {
+    position: absolute;
+    padding-left: 15px;
+    padding-top: 35px;
+    .css-sghohy-MuiButtonBase-root-MuiButton-root {
+      background-color: black
+    }
+  }
+
+}

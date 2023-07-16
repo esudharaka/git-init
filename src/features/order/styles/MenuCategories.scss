@@ -1,0 +1,27 @@
+.category-header {
+  &__title {
+    text-align: left;
+    font-size: x-large;
+    font-weight: 800;
+    color: darkslateblue;
+    padding-bottom: 35px;
+    padding-top: 10px;
+    padding-left: 12px;
+    border-bottom: 2px solid #bbb;;
+  }
+ 
+}
+
+.category-list {
+  &__item {
+    .css-10hburv-MuiTypography-root{
+      font-size: large;
+      font-weight: 600;
+    }
+    .span {
+      color: purple;
+    }
+   
+    font-weight: 400;
+  }
+}
